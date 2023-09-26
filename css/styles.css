@@ -1,4 +1,31 @@
 /* ** GLOBAL STYLES ** */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+      url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+      url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+      url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 html
 {
   height: 100%;
@@ -23,10 +50,10 @@ body
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   letter-spacing: 0.5px;
   background-color: #fff;
-  color: #222;
+  color: #000;
 }
 img
 {
@@ -63,6 +90,9 @@ select:-webkit-autofill:focus {
 .container
 {
   width: 100%;
+  max-width: 1200px;
+  padding-left: 24px;
+  padding-right: 24px;
   margin-right: auto;
   margin-left: auto;
 }
