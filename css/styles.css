@@ -118,6 +118,7 @@ select:-webkit-autofill:focus {
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
+  text-transform: capitalize;
   transition: 0.4s ease;
 }
 .button:hover{
@@ -314,4 +315,55 @@ select:-webkit-autofill:focus {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+}
+
+/* *** FEATURES *** */
+.features {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.features__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 73px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.features__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.features__list-item {
+  width: calc(100% / 2 - 80px);
+}
+.features__list-item:not(:last-child){
+  margin-right: 80px;
+}
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-card__img {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 60px;
+}
+.feature-card__title {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.feature-card__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
 }
