@@ -96,9 +96,6 @@ select:-webkit-autofill:focus {
   padding-right: 24px;
   margin-right: auto;
   margin-left: auto;
-
-
-  /* border: 3px solid red; */
 }
 
 /* ** BUTTON ** */
@@ -522,4 +519,118 @@ select:-webkit-autofill:focus {
 }
 .cta__form-input-error {
   display: none;
+}
+
+/* ++ SITE FOOTER ++ */
+.site-footer {
+  background-color: #FFFFFF24;
+}
+.site-footer__top-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+}
+.site-footer__logo-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+.site-footer__logo {
+  margin-bottom: 5px;
+}
+.site-footer__link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.site-footer__link:not(:last-child){
+  margin-bottom: 15px;
+}
+.site-footer__link:hover{
+  color: #0082F4;
+}
+.site-footer__link:active{
+  opacity: 0.6;
+}
+.footer-list {
+  margin: 0;
+  padding: 0;
+}
+.footer-list:not(:last-child){
+  margin-right: 100px;
+}
+.footer-list__title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.footer-list__item {
+  list-style: none;
+}
+.footer-list__item:not(:last-child){
+  margin-bottom: 15px;
+}
+.footer-list__link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.footer-list__link:hover{
+  color: #0082F4;
+}
+.footer-list__link:active{
+  opacity: 0.6;
+}
+
+.site-footer__bottom {
+  background-color: #0082F4;
+  background-image: linear-gradient(180deg, #058AFF 0%, rgba(57, 55, 206, 0.87) 97.91%);
+}
+.site-footer__bottom-container {
+  display: flex;
+  align-items: center;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+.site-footer__org-info {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+  margin-right: auto;
+  color: #fff;
+}
+.site-footer__socials-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.socials {
+  margin-right: 30px;
+}
+.socials__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.socials__icon {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+.socials__icon:hover{
+  transform: scale(1.5);
+}
+.socials__icon:active{
+  opacity: 0.6;
 }
