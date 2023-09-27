@@ -419,7 +419,7 @@ select:-webkit-autofill:focus {
 .customers__card-wrapper {
   display: flex;
 }
-.customer__card {
+.customers__card {
   max-width: 420px;
   width: 100%;
   padding: 30px 30px 30px 127px;
@@ -428,7 +428,7 @@ select:-webkit-autofill:focus {
   background-image: url(../img/customer-card-bg.svg);
   background-repeat: no-repeat;
 }
-.customer__card:not(:last-child){
+.customers__card:not(:last-child){
   margin-right: 70px;
 }
 .customer {
