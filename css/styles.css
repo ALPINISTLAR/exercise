@@ -468,3 +468,58 @@ select:-webkit-autofill:focus {
   line-height: 24px;
   color: rgb(0, 0, 0, 0.5);
 }
+/* CTA section */
+.cta {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #E8ECFF4D;
+}
+.cta__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta__title {
+  font-size: 31px;
+  font-weight: 500;
+  line-height: 37px;
+  color: #058AFF;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.cta__info {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.cta__form {
+  max-width: 487px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+
+  border-radius: 10px;
+  border: 1px solid rgb(5, 138, 255, 0.2);
+}
+.cta__form-input-wrapper {
+  margin-right: auto;
+  padding-left: 45px;
+  background-image: url(../img/mail-logo.svg);
+  background-repeat: no-repeat;
+  background-size: 32px 25px;
+  background-position: 0 center;
+}
+.cta__form-input {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+}
+.cta__form-input-error {
+  display: none;
+}
