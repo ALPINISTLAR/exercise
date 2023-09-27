@@ -429,6 +429,8 @@ select:-webkit-autofill:focus {
   position: relative;
 }
 .customer__img {
+  width: 61px;
+  height: 61px;
   position: absolute;
   border: 2px solid #fff;
   border-radius: 50%;
@@ -562,6 +564,13 @@ select:-webkit-autofill:focus {
 .footer-list:not(:last-child){
   margin-right: 100px;
 }
+
+.footer-list__item {
+  list-style: none;
+}
+.footer-list__item:not(:last-child){
+  margin-bottom: 15px;
+}
 .footer-list__title {
   font-size: 25px;
   font-weight: 500;
@@ -569,13 +578,6 @@ select:-webkit-autofill:focus {
   color: #000;
   margin: 0;
   padding: 0;
-  margin-bottom: 15px;
-}
-.footer-list__item {
-  list-style: none;
-}
-.footer-list__item:not(:last-child){
-  margin-bottom: 15px;
 }
 .footer-list__link {
   font-size: 20px;
